@@ -1,10 +1,16 @@
 import 'dotenv/config';
+import { defineConfig } from 'drizzle-kit';
 
-export default {
+export default defineConfig({
+  dialect: 'postgresql',
   schema: './src/models/*.js',
   out: './drizzle',
-  dialect: 'postgresql',
   dbCredentials: {
-    url: process.env.DATABASE_URL,
+    host: 'neon-local',
+    port: 5432,
+    user: 'neon',
+    password: 'npg',
+    database: 'neondb',
+    ssl: false,
   },
-};
+});

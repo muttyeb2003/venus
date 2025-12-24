@@ -73,3 +73,659 @@
 {"level":"info","message":"::1 - - [23/Dec/2025:14:55:37 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"acquisionts-api"}
 {"level":"info","message":"User signed out successfully","service":"acquisionts-api"}
 {"level":"info","message":"::1 - - [23/Dec/2025:14:56:02 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:37:51 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:38:06 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:39 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:45 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:48 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:53 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:53 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:53 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:39:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:03 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:03 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:03 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:04 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:04 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:04 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:04 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:05 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:05 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:05 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:06 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:06 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:06 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:06 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:07 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:07 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:08 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:08 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:08 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:09 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:09 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:09 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:10 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:10 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:10 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:10 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:12 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:12 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:12 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:13 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:13 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:13 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:13 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:14 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:14 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:14 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:15 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:15 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:15 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:15 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:16 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:16 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:16 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:16 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:18 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:18 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:29 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:42 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:44 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:40:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:03 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:05 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:06 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:06 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:06 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:07 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:07 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:07 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:08 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:08 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:08 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:09 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:09 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:09 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:09 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:10 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:10 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:10 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:10 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:11 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:11 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:11 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:11 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:12 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:13 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:13 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:13 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:14 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:14 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:14 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:14 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:15 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:15 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:15 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:16 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:16 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:16 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:16 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:17 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:49:17 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:10 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:14 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:14 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:14 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:15 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:16 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:16 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:16 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:16 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:17 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:17 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:17 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:18 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:18 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:18 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:19 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:19 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:19 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:19 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:20 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:20 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:20 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:20 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:21 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:21 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:21 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:22 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:23 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:24 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:27 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:28 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:29 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:29 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:29 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:29 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:35 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:37 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:39 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:39 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:39 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:50 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:52:56 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:50 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:51 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:51 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:53 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:53 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:54 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:55 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:55 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:56 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:56 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:56 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:56 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:55:57 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:56 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:56:56 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:59:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:59:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:15:59:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:45 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:46 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:46 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:46 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:47 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:47 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:48 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:48 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:48 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:49 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:49 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:49 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:49 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:50 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:51 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:52 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:53 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:54 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:07:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:25 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:30 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:34 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:35 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:36 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:38 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:12:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:29 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:29 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:30 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:31 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:34 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:35 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:37 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:39 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:39 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:41 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:43 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:13:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:37 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:38 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:38 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:38 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:39 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:39 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:40 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:40 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:40 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:41 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:41 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:41 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:42 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:42 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:42 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:43 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:45 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:46 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:46 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:21:47 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:44 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:46 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:46 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:47 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:47 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:48 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Dec/2025:16:22:48 +0000] \"GET /health HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:15:59:04 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:15:59:11 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:15:59:21 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:15:59:35 +0000] \"GET / HTTP/1.1\" 200 16 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:09:13 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:10:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","params":["dammson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:10:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1044 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","params":["dammson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:22:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1044 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","params":["dammson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:22:13 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1044 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1","params":["dammson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: dammson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:23:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1044 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:23:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:31:48 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:32:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:32:26 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:35:16 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:46:24 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1","params":["damjumson@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: damjumson@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:51:26 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1046 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.com,1","params":["siran@bam.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:16:52:54 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1040 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.com,1","params":["siran@bam.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:08:28 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1040 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:14 +0000] \"POST /api/sign-up HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:18 +0000] \"POST /api/sign-up HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:25 +0000] \"POST /api HTTP/1.1\" 404 143 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:32 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:38 +0000] \"GET / HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:41 +0000] \"GET / HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:45 +0000] \"GET /api HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:25:58 +0000] \"POST /api/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:01 +0000] \"POST /api/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:06 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:48 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:52 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-up","service":"acquisionts-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:26:56 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 403 52 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:27:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 194 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.comm,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.comm,1","params":["siran@bam.comm",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: siran@bam.comm,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:27:18 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:27:31 +0000] \"POST /api/auth/signup HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:27:39 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:27:46 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/","service":"acquisionts-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:27:50 +0000] \"GET / HTTP/1.1\" 403 52 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:30:13 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:30:15 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:34:08 +0000] \"GET / HTTP/1.1\" 200 16 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:34:13 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:34:46 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:35:03 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:35:07 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:35:13 +0000] \"GET / HTTP/1.1\" 200 16 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:36:32 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:38:06 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","params":["ali32@mail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:38:23 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:39:22 +0000] \"POST /api/sign-up HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","params":["ali32@mail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:42:56 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:46:31 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:46:35 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:46:47 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:46:51 +0000] \"GET / HTTP/1.1\" 200 16 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:46:55 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","params":["ali32@mail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:47:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","params":["ali32@mail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:17:57:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"HELLO FROM VENUS","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:18:00:50 +0000] \"GET / HTTP/1.1\" 200 16 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"info","message":"::1 - - [24/Dec/2025:18:00:57 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","params":["ali32@mail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:18:01:13 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}
+{"level":"error","message":"Error creatin the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","service":"acquisionts-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signup error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1","params":["ali32@mail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"acquisionts-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: ali32@mail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/labib/Desktop/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async createUser (file:///C:/Users/labib/Desktop/acquisitions/src/services/auth.service.js:27:26)\n    at async signup (file:///C:/Users/labib/Desktop/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [24/Dec/2025:18:06:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1041 \"-\" \"HTTPie\"","service":"acquisionts-api"}

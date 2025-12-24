@@ -1,0 +1,23 @@
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+logs
+coverage
+dribble
+
+# Environment files
+.env
+.env.*
+
+# Docker artifacts
+Dockerfile*
+docker-compose*.yml
+
+# IDE/editor files
+.vscode
+.idea
+*.swp
+*.swo
