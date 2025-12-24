@@ -1,53 +1,87 @@
 #!/bin/bash
+set -e
 
-# Development startup script for Acquisition App with Neon Local
-# This script starts the application in development mode with Neon Local
+APP_SERVICE="app"
+COMPOSE_FILE="docker-compose.dev.yml"
+
+API_URL="http://localhost:3000"
+DB_URL="postgresql://neon:npg@localhost:5432/neondb"
 
 echo "🚀 Starting Acquisition App in Development Mode"
 echo "================================================"
 
-# Check if .env.development exists
+cleanup() {
+  echo ""
+  echo "🛑 Stopping development environment..."
+  docker compose -f "$COMPOSE_FILE" down >/dev/null 2>&1 || true
+  echo "✅ Stopped."
+}
+trap cleanup INT TERM
+
 if [ ! -f .env.development ]; then
-    echo "❌ Error: .env.development file not found!"
-    echo "   Please copy .env.development from the template and update with your Neon credentials."
-    exit 1
+  echo "❌ Error: .env.development file not found!"
+  echo "   Create/copy .env.development and add your env vars."
+  exit 1
 fi
 
-# Check if Docker is running
 if ! docker info >/dev/null 2>&1; then
-    echo "❌ Error: Docker is not running!"
-    echo "   Please start Docker Desktop and try again."
-    exit 1
+  echo "❌ Error: Docker is not running!"
+  echo "   Start Docker Desktop and try again."
+  exit 1
 fi
 
-# Create .neon_local directory if it doesn't exist
 mkdir -p .neon_local
-
-# Add .neon_local to .gitignore if not already present
-if ! grep -q ".neon_local/" .gitignore 2>/dev/null; then
-    echo ".neon_local/" >> .gitignore
-    echo "✅ Added .neon_local/ to .gitignore"
+if [ -f .gitignore ] && ! grep -q ".neon_local/" .gitignore 2>/dev/null; then
+  echo ".neon_local/" >> .gitignore
+  echo "✅ Added .neon_local/ to .gitignore"
 fi
 
+echo ""
+echo "🧹 Cleaning any previous run (avoids port conflicts)..."
+docker compose -f "$COMPOSE_FILE" down >/dev/null 2>&1 || true
+
+echo ""
 echo "📦 Building and starting development containers..."
 echo "   - Neon Local proxy will create an ephemeral database branch"
 echo "   - Application will run with hot reload enabled"
 echo ""
 
-# Run migrations with Drizzle
-echo "📜 Applying latest schema with Drizzle..."
-npm run db:migrate
+docker compose -f "$COMPOSE_FILE" up --build -d
 
-# Wait for the database to be ready
-echo "⏳ Waiting for the database to be ready..."
-docker compose exec neon-local psql -U neon -d neondb -c 'SELECT 1'
+echo "⏳ Waiting for app container to be running..."
+APP_CID="$(docker compose -f "$COMPOSE_FILE" ps -q "$APP_SERVICE" || true)"
+if [ -z "$APP_CID" ]; then
+  echo "❌ Error: Could not find container for service '$APP_SERVICE'."
+  echo "   Run: docker compose -f $COMPOSE_FILE ps"
+  exit 1
+fi
 
-# Start development environment
-docker compose -f docker-compose.dev.yml up --build
+for i in {1..90}; do
+  if docker inspect -f '{{.State.Running}}' "$APP_CID" 2>/dev/null | grep -q true; then
+    break
+  fi
+  sleep 1
+done
+
+sleep 2
+
+echo "📜 Applying latest schema with Drizzle (inside container)..."
+docker compose -f "$COMPOSE_FILE" exec -T "$APP_SERVICE" npm run db:migrate
 
 echo ""
 echo "🎉 Development environment started!"
-echo "   Application: http://localhost:5173"
-echo "   Database: postgres://neon:npg@localhost:5432/neondb"
+echo "================================================"
+echo "✅ API:        $API_URL"
+echo "✅ DB (local): $DB_URL"
 echo ""
-echo "To stop the environment, press Ctrl+C or run: docker compose down"
+echo "📌 To stop everything: press Ctrl+C"
+echo ""
+
+# Auto-open API URL in browser on Windows (Git Bash/MSYS)
+if command -v cmd.exe >/dev/null 2>&1; then
+  echo "🌐 Opening $API_URL in your browser..."
+  cmd.exe /c start "$API_URL" >/dev/null 2>&1 || true
+fi
+
+# Follow logs
+docker compose -f "$COMPOSE_FILE" logs -f
