@@ -1,7 +1,15 @@
 import logger from '#config/logger.js';
 import { formatValidationError } from '#utils/format.js';
-import { getAllUsers, getUserById as getUserByIdService, updateUser as updateUserService, deleteUser as deleteUserService } from '#services/users.service.js';
-import { updateUserSchema, userIdSchema } from '#validations/users.validation.js';
+import {
+  getAllUsers,
+  getUserById as getUserByIdService,
+  updateUser as updateUserService,
+  deleteUser as deleteUserService,
+} from '#services/users.service.js';
+import {
+  updateUserSchema,
+  userIdSchema,
+} from '#validations/users.validation.js';
 
 export const fetchAllUsers = async (req, res, next) => {
   try {
@@ -84,11 +92,15 @@ export const updateUser = async (req, res, next) => {
     const isAdmin = authUser.role === 'admin';
 
     if (!isSelf && !isAdmin) {
-      return res.status(403).json({ error: 'Forbidden: cannot update other users' });
+      return res
+        .status(403)
+        .json({ error: 'Forbidden: cannot update other users' });
     }
 
     if (!isAdmin && Object.prototype.hasOwnProperty.call(updates, 'role')) {
-      return res.status(403).json({ error: 'Forbidden: only admin can change user role' });
+      return res
+        .status(403)
+        .json({ error: 'Forbidden: only admin can change user role' });
     }
 
     logger.info(`Updating user ${id} by ${authUser.email || authUser.id}`);
@@ -133,7 +145,9 @@ export const deleteUser = async (req, res, next) => {
     const isAdmin = authUser.role === 'admin';
 
     if (!isSelf && !isAdmin) {
-      return res.status(403).json({ error: 'Forbidden: cannot delete other users' });
+      return res
+        .status(403)
+        .json({ error: 'Forbidden: cannot delete other users' });
     }
 
     logger.info(`Deleting user ${id} by ${authUser.email || authUser.id}`);

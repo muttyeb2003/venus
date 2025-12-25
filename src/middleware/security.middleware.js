@@ -37,8 +37,6 @@ const securityMiddleware = async (req, res, next) => {
 
     const decision = await client.protect(req);
 
-
-
     if (decision.isDenied() && decision.reason.isBot()) {
       logger.warn('Bot request blocked', {
         ip: req.ip,
@@ -73,9 +71,10 @@ const securityMiddleware = async (req, res, next) => {
         path: req.path,
       });
 
-      return res
-        .status(403)
-        .json({ error: 'Forbidden', message: 'Too many requests ' });
+      return res.status(403).json({
+        error: 'Forbidden',
+        message, 
+      });
     }
 
     next();

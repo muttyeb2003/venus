@@ -14,7 +14,7 @@ export const cookies = {
     res.clearCookie(name, { ...cookies.getOptions(), ...options });
   },
 
-  get: (res, name) => {
-    return req.cookies[name];
+  get: (req, name) => {
+    return req.cookies?.[name];
   },
 };

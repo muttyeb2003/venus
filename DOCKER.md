@@ -147,7 +147,7 @@ services:
       # In production, DATABASE_URL must be the Neon Cloud connection string
       DATABASE_URL: ${DATABASE_URL}
     ports:
-      - "${PORT:-3000}:${PORT:-3000}"
+      - '${PORT:-3000}:${PORT:-3000}'
 
 # Note: The Neon Cloud database is not run as a container here.
 # The app connects to Neon via the DATABASE_URL provided in .env.production
@@ -391,3 +391,4 @@ Requirements:
 ```bash
 # Dev
 </
+```

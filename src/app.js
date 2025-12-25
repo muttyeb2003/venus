@@ -8,7 +8,6 @@ import authRoutes from '#routes/auth.route.js';
 import securityMiddleware from '#middleware/security.middleware.js';
 import usersRoutes from '#routes/users.routes.js';
 
-
 const app = express();
 
 app.use(helmet());
@@ -48,6 +47,5 @@ app.use('/api/users', usersRoutes);
 app.use((req, res) => {
   res.status(404).json({ error: 'Route not found' });
 });
-
 
 export default app;

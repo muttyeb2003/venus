@@ -9,23 +9,21 @@ const logger = winston.createLogger({
   ),
   defaultMeta: { service: 'acquisionts-api' },
   transports: [
-   
     new winston.transports.File({ filename: 'logs/error.lg', level: 'error' }),
-    
+
     new winston.transports.File({ filename: 'logs/combined.log' }),
   ],
 });
-
 
 if (process.env.NODE_ENV !== 'production') {
   logger.add(
     new winston.transports.Console({
       format: winston.format.combine(
         winston.format.colorize(),
-        winston.format.simple(),
+        winston.format.simple()
       ),
     })
   );
 }
 
-export default logger
+export default logger;

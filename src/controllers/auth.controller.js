@@ -20,7 +20,11 @@ export const signup = async (req, res, next) => {
 
     const user = await createUser({ name, email, password, role });
 
-    const token = jwttoken.sign({ id: user.id, email: user.email, role: user.role });
+    const token = jwttoken.sign({
+      id: user.id,
+      email: user.email,
+      role: user.role,
+    });
 
     cookies.set(res, 'token', token);
 
@@ -37,7 +41,10 @@ export const signup = async (req, res, next) => {
   } catch (e) {
     logger.error('Signup error', e);
 
-    if (e.message === 'User with this email already exists' || e.message === 'User already exists') {
+    if (
+      e.message === 'User with this email already exists' ||
+      e.message === 'User already exists'
+    ) {
       return res.status(409).json({ error: 'Email already exist' });
     }
     next(e);
@@ -59,7 +66,11 @@ export const signIn = async (req, res, next) => {
 
     const user = await authenticateUser({ email, password });
 
-    const token = jwttoken.sign({ id: user.id, email: user.email, role: user.role });
+    const token = jwttoken.sign({
+      id: user.id,
+      email: user.email,
+      role: user.role,
+    });
     cookies.set(res, 'token', token);
 
     logger.info(`User signed in successfully: ${email}`);
