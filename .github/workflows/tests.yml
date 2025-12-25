@@ -12,12 +12,13 @@ jobs:
     env:
       NODE_ENV: test
       NODE_OPTIONS: --experimental-vm-modules
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 20.x (with npm cache)
         uses: actions/setup-node@v4
         with:
           node-version: 20.x
@@ -26,10 +27,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests with coverage
+      # Run tests with coverage (continue so we can upload coverage + write summary)
+      - name: Run tests (with coverage)
+        id: test
         run: npm test -- --coverage
+        continue-on-error: true
 
-      - name: Upload coverage artifacts
+      - name: Upload coverage artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -37,3 +41,31 @@ jobs:
           path: coverage
           if-no-files-found: ignore
           retention-days: 30
+
+      - name: Annotate test failure
+        if: steps.test.outcome == 'failure'
+        run: |
+          echo "::error title=Tests failed::Check the logs above. Re-run locally with: npm test -- --coverage"
+
+      - name: Tests summary
+        if: always()
+        run: |
+          echo "## Test Results" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.test.outcome }}" = "success" ]; then
+            echo "✅ Tests passed for commit \`${{ github.sha }}\`." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Tests failed for commit \`${{ github.sha }}\`." >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -d coverage ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Coverage reports were generated and uploaded as artifact: \`coverage-${{ github.sha }}\` (retention: 30 days)." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "No \`coverage/\` directory found. Ensure Jest is configured to output coverage." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Fail workflow if tests failed
+        if: steps.test.outcome == 'failure'
+        run: exit 1
