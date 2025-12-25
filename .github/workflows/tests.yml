@@ -12,7 +12,6 @@ jobs:
     env:
       NODE_ENV: test
       NODE_OPTIONS: --experimental-vm-modules
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
     steps:
       - name: Checkout repository
@@ -28,9 +27,7 @@ jobs:
         run: npm ci
 
       - name: Run tests with coverage
-        id: test
         run: npm test -- --coverage
-        continue-on-error: true
 
       - name: Upload coverage artifacts
         if: always()
@@ -40,26 +37,3 @@ jobs:
           path: coverage
           if-no-files-found: ignore
           retention-days: 30
-
-      - name: Annotate test failures
-        if: steps.test.outcome == 'failure'
-        run: |
-          echo "::error::Tests failed. Check the Jest output above, fix failing tests, and re-run locally with 'npm test -- --coverage'."
-
-      - name: Tests summary
-        if: always()
-        run: |
-          echo "## Test Results" >> $GITHUB_STEP_SUMMARY
-          if [ "${{ steps.test.outcome }}" = "success" ]; then
-            echo "✅ Tests passed for commit \`${{ github.sha }}\`." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ Tests failed for commit \`${{ github.sha }}\`." >> $GITHUB_STEP_SUMMARY
-          fi
-
-          if [ -d coverage ]; then
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "Coverage reports have been generated and uploaded as an artifact named \`coverage-${{ github.sha }}\`." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "No coverage directory was found; verify Jest is configured to output coverage." >> $GITHUB_STEP_SUMMARY
-          fi
