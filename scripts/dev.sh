@@ -10,23 +10,31 @@ DB_URL="postgresql://neon:npg@localhost:5432/neondb"
 echo "🚀 Starting Acquisition App in Development Mode"
 echo "================================================"
 
+restore_tty() {
+  stty echo 2>/dev/null || true
+  stty sane 2>/dev/null || true
+  tput cnorm 2>/dev/null || true
+  reset 2>/dev/null || true
+}
+
 cleanup() {
+  trap - INT TERM EXIT
   echo ""
   echo "🛑 Stopping development environment..."
+  restore_tty
   docker compose -f "$COMPOSE_FILE" down >/dev/null 2>&1 || true
+
   echo "✅ Stopped."
 }
-trap cleanup INT TERM
+trap cleanup INT TERM EXIT
 
 if [ ! -f .env.development ]; then
   echo "❌ Error: .env.development file not found!"
-  echo "   Create/copy .env.development and add your env vars."
   exit 1
 fi
 
 if ! docker info >/dev/null 2>&1; then
   echo "❌ Error: Docker is not running!"
-  echo "   Start Docker Desktop and try again."
   exit 1
 fi
 
@@ -41,11 +49,7 @@ echo "🧹 Cleaning any previous run (avoids port conflicts)..."
 docker compose -f "$COMPOSE_FILE" down >/dev/null 2>&1 || true
 
 echo ""
-echo "📦 Building and starting development containers..."
-echo "   - Neon Local proxy will create an ephemeral database branch"
-echo "   - Application will run with hot reload enabled"
-echo ""
-
+echo "📦 Building and starting containers..."
 docker compose -f "$COMPOSE_FILE" up --build -d
 
 echo "⏳ Waiting for app container to be running..."
@@ -74,14 +78,14 @@ echo "================================================"
 echo "✅ API:        $API_URL"
 echo "✅ DB (local): $DB_URL"
 echo ""
-echo "📌 To stop everything: press Ctrl+C"
+echo "📌 Press Ctrl+C to stop everything"
 echo ""
 
-# Auto-open API URL in browser on Windows (Git Bash/MSYS)
+# Open browser (Windows)
 if command -v cmd.exe >/dev/null 2>&1; then
   echo "🌐 Opening $API_URL in your browser..."
   cmd.exe /c start "$API_URL" >/dev/null 2>&1 || true
 fi
 
-# Follow logs
+echo "📜 Following logs (Ctrl+C stops + cleans up)..."
 docker compose -f "$COMPOSE_FILE" logs -f
