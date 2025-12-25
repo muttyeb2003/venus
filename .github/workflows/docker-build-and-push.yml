@@ -10,8 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Validate Docker Hub secrets
+        run: |
+          if [ -z "${{ secrets.DOCKER_USERNAME }}" ]; then
+            echo "::error::Missing DOCKER_USERNAME secret. Add it in GitHub repo Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          if [ -z "${{ secrets.DOCKER_PASSWORD }}" ]; then
+            echo "::error::Missing DOCKER_PASSWORD secret. Use a Docker Hub Personal Access Token and add it as DOCKER_PASSWORD."
+            exit 1
+          fi
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -29,19 +40,18 @@ jobs:
         id: vars
         run: echo "prod_tag=prod-$(date -u +'%Y%m%d-%H%M%S')" >> "$GITHUB_OUTPUT"
 
-      - name: Docker metadata (tags + labels)
+      - name: Docker metadata
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/kubernetes-demo-api
+          images: ${{ secrets.DOCKER_USERNAME }}/acquisitions
           tags: |
             type=ref,event=branch
             type=sha
             type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
             type=raw,value=${{ steps.vars.outputs.prod_tag }}
 
-      - name: Build and push (multi-arch)
-        id: build
+      - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
           context: .
@@ -57,6 +67,13 @@ jobs:
         if: always()
         run: |
           echo "## Docker Image Published" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "✅ Image built and pushed to Docker Hub." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Docker build/push failed. Check logs above." >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
           echo "- Image: \`${{ secrets.DOCKER_USERNAME }}/acquisitions\`" >> $GITHUB_STEP_SUMMARY
           echo "- Tags:" >> $GITHUB_STEP_SUMMARY
           echo "${{ steps.meta.outputs.tags }}" | while read -r tag; do
