@@ -735,3 +735,6 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Dec/2025:15:18:01 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisionts-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Dec/2025:15:18:01 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"-\"","service":"acquisionts-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [25/Dec/2025:15:18:01 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisionts-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Dec/2025:15:30:20 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisionts-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Dec/2025:15:30:20 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"-\"","service":"acquisionts-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [25/Dec/2025:15:30:20 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisionts-api"}
