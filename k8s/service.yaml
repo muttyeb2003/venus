@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: venus-api-service
+  namespace: venus
+spec:
+  type: ClusterIP
+  selector:
+    app: venus-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000

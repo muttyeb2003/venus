@@ -1,4 +1,28 @@
+# Node
 node_modules/
+
+# Environment files
 .env
 .env.*
+!.env.example
+
+# Neon local
 .neon_local/
+
+# Logs
+logs/
+*.log
+*.lg
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+
+# OS/editor
+.DS_Store
+.vscode/

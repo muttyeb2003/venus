@@ -6,11 +6,6 @@ export default defineConfig({
   schema: './src/models/*.js',
   out: './drizzle',
   dbCredentials: {
-    host: 'neon-local',
-    port: 5432,
-    user: 'neon',
-    password: 'npg',
-    database: 'neondb',
-    ssl: false,
+    url: process.env.DATABASE_URL,
   },
 });

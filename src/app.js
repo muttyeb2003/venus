@@ -22,13 +22,6 @@ app.use(
   })
 );
 
-app.use(securityMiddleware);
-
-app.get('/', (req, res) => {
-  logger.info('HELLO FROM VENUS');
-  res.status(200).send('Hello from venus');
-});
-
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'OK',
@@ -36,6 +29,15 @@ app.get('/health', (req, res) => {
     uptime: process.uptime(),
   });
 });
+
+app.use(securityMiddleware);
+
+app.get('/', (req, res) => {
+  logger.info('HELLO FROM VENUS');
+  res.status(200).send('Hello from venus');
+});
+
+
 
 app.get('/api', (req, res) => {
   res.status(200).json({ message: 'venus is runing' });
